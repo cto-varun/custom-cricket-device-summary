@@ -1,0 +1,48 @@
+.ModalButton {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 500;
+    height: 34px;
+    background-color: #f0f0f0;
+}
+
+.ModalFooter {}
+
+.imei-modal .ant-modal-content {
+    border-radius: 5px 5px 0 0;
+}
+
+.imei-modal .ant-modal-header {
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+    padding: 12px 0 8px 20px;
+    background-color: #f5f5f5;
+}
+
+.imei-modal .ant-modal-title {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.imei-modal .ant-modal-body .ant-typography {
+    font-size: 12px;
+    margin-bottom: 0.5em;
+}
+
+.imei-modal .ant-modal-body > span.ant-typography.ant-typography-disabled {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.imei-modal .ant-modal-body > .ant-divider.ant-divider-horizontal {
+    margin: 20px 0 12px;
+    background-color: #bfbfbf;
+}
+
+.imei-modal .ant-modal-footer {
+    padding: 10px 24px 52px;
+    text-align: left;
+    border-top: none;
+}

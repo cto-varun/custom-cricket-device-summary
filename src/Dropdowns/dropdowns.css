@@ -1,0 +1,50 @@
+#device-summary-dropdowns-container {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 0;
+}
+
+.device-summary-dropdown {
+    margin-right: 8px;
+}
+
+.ant-btn.device-summary-dropdown-button,
+.ant-btn.device-summary-dropdown-button:hover,
+.ant-btn.device-summary-dropdown-button:active {
+    color: black;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.device-summary-dropdown-icon {
+    margin-right: 10px;
+}
+
+.ant-menu-root.ant-menu-vertical.device-summary-dropdown-menu {
+    border: 0.5px solid #2f54eb;
+    border-radius: 2px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12),
+        0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px rgba(0, 0, 0, 0.05);
+    padding: 10px 0px;
+}
+
+.ant-menu-item.device-summary-dropdown-menu-item {
+    color: #262626;
+    height: 32px;
+    font-size: 13px;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.ant-menu-item.device-summary-dropdown-menu-item:hover,
+.ant-menu-item.device-summary-dropdown-menu-item:active,
+.ant-menu-item-selected.device-summary-dropdown-menu-item,
+.ant-menu .ant-menu-item-selected.device-summary-dropdown-menu-item:hover {
+    background: #f5f5f5;
+}
+
+.ant-menu .ant-menu-item-selected.device-summary-dropdown-menu-item {
+    background: #fff;
+    background-color: #fff;
+    color: #434343;
+}

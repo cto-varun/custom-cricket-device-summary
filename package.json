@@ -1,0 +1,36 @@
+{
+    "name": "@ivoyant/custom-cricket-device-summary",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "Template",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-cache": "^1.0.0",
+        "@ivoyant/component-link-button": "^1.0.0",
+        "@ivoyant/component-loader": "^1.0.39",
+        "@ivoyant/component-message-bus": "^1.0.0",
+        "@ivoyant/custom-cricket-pop-up": "^1.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^5.1.2"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2"
+    }
+}
